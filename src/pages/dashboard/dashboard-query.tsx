@@ -1,9 +1,12 @@
+import DashboardPage from "@/pages/dashboard/dashboard-page";
+
+/**
+ * @Component DashboardQuery is responsible for getting the data and passing it down to the Page UI component, in charge of rendering the UI
+ .
+ * */
+
 function DashboardQuery() {
-  return (
-    <>
-      <h1>Dashboard Query Route</h1>
-    </>
-  );
+  return <DashboardPage data={[]} />;
 }
 
 export default DashboardQuery;
